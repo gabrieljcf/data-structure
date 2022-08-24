@@ -46,3 +46,15 @@ test("Should be able to clear the stack", () => {
     stack.clear()
     expect(stack.isEmpty()).toBe(true);
 })
+
+test("Should be able to show the stack", () => {
+    const stack = new StackWithObject();
+    stack.push(1);
+    stack.push(2);
+    expect(stack.toString()).toBe("1,2");
+})
+
+test("Should be able to return a empty string when stack is empty", () => {
+    const stack = new StackWithObject();
+    expect(stack.toString()).toBe("");
+})

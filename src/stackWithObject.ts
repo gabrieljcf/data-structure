@@ -32,4 +32,13 @@ export default class StackWithObject {
         this.items = {};
         this.count = 0;
     }
+
+    toString() {
+        if (this.isEmpty()) return '';
+        let objectToString = `${this.items[0]}`;
+        for(let stackKey = 1; stackKey < this.count; stackKey++) {
+            objectToString = `${objectToString},${this.items[stackKey]}`;
+        }
+        return objectToString;
+    }
 }
