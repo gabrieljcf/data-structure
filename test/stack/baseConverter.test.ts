@@ -1,4 +1,4 @@
-import { baseConverter } from "../src/baseConverter";
+import { baseConverter } from "../../src/stack/baseConverter";
 
 test("Should be able to convert a decimal number with base 8", () => {
     const value = baseConverter(100345, 8);

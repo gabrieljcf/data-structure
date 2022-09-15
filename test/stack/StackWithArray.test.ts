@@ -1,4 +1,4 @@
-import StackWithArray from "../src/StackWithArray";
+import StackWithArray from "../../src/stack/StackWithArray";
 
 test("Should be able to add a item in stack", () => {
     const stack = new StackWithArray();

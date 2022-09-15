@@ -1,4 +1,4 @@
-import { decimalToBinary } from "../src/decimalToBinary"
+import { decimalToBinary } from "../../src/stack/decimalToBinary"
 
 test("should be able to tranform a decimal number in binary", () => {
     const convertedValue = decimalToBinary(156);

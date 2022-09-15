@@ -1,4 +1,4 @@
-import StackWithObject from "../src/stackWithObject";
+import StackWithObject from "../../src/stack/stackWithObject";
 
 test("Should be able to add a item in stack", () => {
     const stack = new StackWithObject();
